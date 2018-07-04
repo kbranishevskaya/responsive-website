@@ -19,10 +19,6 @@ $(document).ready(function(){
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
-    } // End if
+    }
   });
 });
-$('img.animated').hover(
-     function() {
-      $(this).addClass('bounce'); // Добавляем класс bounce
-     }
